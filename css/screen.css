@@ -14,3 +14,30 @@ section{display:block}html{line-height:1}body{line-height:inherit}ol,
 ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,
 q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
+
+/* ===== BASE STYLES ===== */
+header {
+  background: url(../images/background-photo.jpeg) #FFF;
+}
+
+footer {
+  background-color: #000;
+  color: #FFF;
+}
+
+/* ===== LAYOUT STYLES ===== */
+
+/* ===== MODULAR STYLES ===== */
+#expertise {
+  color: white;
+  background-color: #000;
+}
+
+#biography {
+  background-color: #FFF;
+}
+
+#contact{
+  background-color: #000;
+  color: #FFF;
+}
