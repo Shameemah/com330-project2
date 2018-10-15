@@ -18,11 +18,21 @@ q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-s
 /* ===== BASE STYLES ===== */
 header {
   background: url(../images/background-photo.jpeg) #FFF;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
 footer {
   background-color: #000;
   color: #FFF;
+}
+
+h2 {
+  font: "Avenir";
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -40,4 +50,9 @@ footer {
 #contact{
   background-color: #000;
   color: #FFF;
+}
+
+#logo-main img {
+  height: 30%;
+  width: 30%;
 }
