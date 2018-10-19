@@ -60,9 +60,25 @@ h1 {
   width: 25%;
 }
 
+#subtitle {
+  padding-top: 80%;
+}
+
 #subtitle li, h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
+}
+
+#subtitle li:first-child {
+  font-size: 1.125em;
+}
+
+#subtitle li:nth-child(2) {
+  font-size: 1.6875em;
+}
+
+#subtitle li:last-child {
+  font-size: 2.531em;
 }
 
 /* ===== MEDIA QUERIES ===== */
