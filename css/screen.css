@@ -70,6 +70,20 @@ section, header, footer {
   padding-top: 80%;
 }
 
+#expertise h2, #contact p {
+  background: no-repeat url(../images/line-white.png);
+}
+
+#biography h2 {
+  background: no-repeat url(../images/line-black.png);
+}
+
+#social {
+  background: no-repeat url(../images/long-divider-white.png);
+  background-position: fixed;
+  background-size: 100vw;
+}
+
 /* ===== MODULAR STYLES ===== */
 .summary {
   font-size: 0.8195em;
@@ -186,7 +200,7 @@ footer figure {
 footer figure img {
   height: 5%;
   width: 5%;
-  padding-right: 0.8em;
+  padding-right: 2em;
 }
 
 footer figure:last-child img {
