@@ -26,7 +26,7 @@ header {
   height: 100vh;
 }
 
-header {
+section, header {
   padding: 1.222em 0.916em;
 }
 
@@ -64,20 +64,17 @@ h1 {
   padding-top: 80%;
 }
 
-#subtitle li {
-  line-height: 1.222em;
-}
-
 #subtitle li, h2 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
+  line-height: 1.222em;
 }
 
 #subtitle li:first-child {
   font-size: 1.40625em;
 }
 
-#subtitle li:nth-child(2) {
+h2, #subtitle li:nth-child(2) {
   font-size: 2.109375em;
 }
 
