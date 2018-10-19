@@ -50,8 +50,6 @@ main {
 
 a {
   color: #FFFF;
-  text-decoration: none;
-  text-transform: uppercase;
 }
 
 /* ===== LAYOUT STYLES ===== */
@@ -83,6 +81,28 @@ section, header {
   color: #FFF;
 }
 
+#logo-container {
+  margin: 1.22em 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#resume {
+  border:1px solid #FFFF;
+  margin-bottom: 4.28em;
+  width: 40vw;
+  text-align: center;
+  padding: 0.8em;
+}
+
+#resume:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+#resume a {
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 #logo-main img {
   height: 25%;
   width: 25%;
@@ -93,7 +113,7 @@ section, header {
   line-height: 1.222em;
 }
 
-#subtitle li, h2, .summary {
+#subtitle li, h2, .summary, #contact-text {
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -109,21 +129,32 @@ section, header {
   font-size: 2.531em;
 }
 
-#resume {
-  border:1px solid #FFFF;
-  margin-bottom: 4.28em;
-  width: 40vw;
-  text-align: center;
-  padding: 0.8em;
-}
-
 #skills li::before {
   content: "-";
   padding-right: 0.2em;
 }
 
+#logo-container figure:first-child img {
+  height: 15%;
+  width: 15%;
+}
+
 #logo-container figure img {
   height: 25%;
   width: 25%;
+  display: block;
+  padding: 1.222em 0;
+  padding-right: 0.916em;
+  margin: 0 auto;
 }
+
+#bio-content li {
+  padding-bottom: 1.22em;
+}
+
+#contact-text {
+  padding: 2.10937em 0 1.2em 0;
+  font-size: 1.5275em;
+}
+
 /* ===== MEDIA QUERIES ===== */
