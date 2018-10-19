@@ -38,6 +38,19 @@ footer {
 h1 {
   display: none;
 }
+
+h2 {
+  padding: 2.10937em 0 1.2em 0;
+  font-size: 1.5275em;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.125em;  
+  line-height: 1.222em;
+}
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
@@ -74,7 +87,7 @@ h1 {
   font-size: 1.40625em;
 }
 
-h2, #subtitle li:nth-child(2) {
+#subtitle li:nth-child(2) {
   font-size: 2.109375em;
 }
 
