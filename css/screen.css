@@ -26,10 +26,6 @@ header {
   height: 100vh;
 }
 
-section, header {
-  padding: 1.222em 0.916em;
-}
-
 footer {
   background-color: #000;
   color: #FFF;
@@ -59,6 +55,13 @@ a {
 }
 
 /* ===== LAYOUT STYLES ===== */
+section, header {
+  padding: 1.222em 0.916em;
+}
+
+#subtitle {
+  padding-top: 80%;
+}
 
 /* ===== MODULAR STYLES ===== */
 .summary {
@@ -83,10 +86,6 @@ a {
 #logo-main img {
   height: 25%;
   width: 25%;
-}
-
-#subtitle {
-  padding-top: 80%;
 }
 
 #subtitle li, h2 {
@@ -115,5 +114,16 @@ a {
   margin-bottom: 4.28em;
   width: 40vw;
   text-align: center;
+  padding: 0.8em;
+}
+
+#skills li::before {
+  content: "-";
+  padding-right: 0.2em;
+}
+
+#logo-container figure img {
+  height: 25%;
+  width: 25%;
 }
 /* ===== MEDIA QUERIES ===== */
