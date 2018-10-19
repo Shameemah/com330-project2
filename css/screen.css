@@ -42,18 +42,27 @@ h2 {
 }
 
 main {
-  font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 0.984375em;
   line-height: 1.444em;
+}
+
+main, footer {
+  font-family: 'Open Sans', sans-serif;
 }
 
 a {
   color: #FFFF;
 }
 
+footer {
+  text-align: center;
+  font-size: 0.76375em;
+  font-weight: 300;
+}
+
 /* ===== LAYOUT STYLES ===== */
-section, header {
+section, header, footer {
   padding: 1.222em 0.916em;
 }
 
@@ -155,6 +164,26 @@ section, header {
 #contact-text {
   padding: 2.10937em 0 1.2em 0;
   font-size: 1.5275em;
+  margin-bottom: 4.8em;
 }
 
+footer p {
+  display: inline;
+  padding-right: 0.8em;
+}
+
+footer figure {
+  display: inline;
+}
+
+footer figure img {
+  height: 5%;
+  width: 5%;
+  padding-right: 0.8em;
+}
+
+footer figure:last-child img {
+  height: 12%;
+  width: 12%;
+}
 /* ===== MEDIA QUERIES ===== */
