@@ -104,6 +104,7 @@ section, header, footer {
 }
 
 #resume:hover {
+  position: relative;
   background-color: rgba(255, 255, 255, 0.1);
 }
 
@@ -143,7 +144,13 @@ section, header, footer {
   padding-right: 0.2em;
 }
 
-#logo-container figure:first-child img {
+#logo-container h3 {
+  font-family: 'Nunito Sans', sans-serif;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+#logo-container #rbc-logo {
   height: 15%;
   width: 15%;
 }
