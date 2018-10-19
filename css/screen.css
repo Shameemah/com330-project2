@@ -26,6 +26,10 @@ header {
   height: 100vh;
 }
 
+header {
+  padding: 1.222em 0.916em;
+}
+
 footer {
   background-color: #000;
   color: #FFF;
@@ -52,8 +56,8 @@ h1 {
 }
 
 #logo-main img {
-  height: 30%;
-  width: 30%;
+  height: 25%;
+  width: 25%;
 }
 
 #subtitle li, h2 {
