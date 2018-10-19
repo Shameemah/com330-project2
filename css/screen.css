@@ -45,15 +45,20 @@ h2 {
   text-transform: uppercase;
 }
 
-body {
+main {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
-  font-size: 1.125em;  
+  font-size: 0.984375em;
   line-height: 1.222em;
 }
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
+.summary {
+  font-size: 0.8195em;
+  padding-bottom: 4.28em;
+}
+
 #expertise {
   color: white;
   background-color: #000;
@@ -78,9 +83,12 @@ body {
 }
 
 #subtitle li, h2 {
-  font-family: 'Nunito Sans', sans-serif;
   font-weight: 600;
   line-height: 1.222em;
+}
+
+#subtitle li, h2, .summary {
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 #subtitle li:first-child {
