@@ -49,8 +49,15 @@ main {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 0.984375em;
-  line-height: 1.222em;
+  line-height: 1.444em;
 }
+
+a {
+  color: #FFFF;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
@@ -103,4 +110,10 @@ main {
   font-size: 2.531em;
 }
 
+#resume {
+  border:1px solid #FFFF;
+  margin-bottom: 4.28em;
+  width: 40vw;
+  text-align: center;
+}
 /* ===== MEDIA QUERIES ===== */
