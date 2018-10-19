@@ -31,6 +31,9 @@ footer {
   color: #FFF;
 }
 
+h1 {
+  display: none;
+}
 /* ===== LAYOUT STYLES ===== */
 
 /* ===== MODULAR STYLES ===== */
