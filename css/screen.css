@@ -67,7 +67,7 @@ section, header, footer {
 }
 
 #subtitle {
-  padding-top: 80%;
+  padding-top: 20rem;
 }
 
 #expertise h2, #contact p {
@@ -128,8 +128,8 @@ section, header, footer {
 }
 
 #logo-main img {
-  height: 25%;
-  width: 25%;
+  height: 4em;
+  width: 6em;
 }
 
 #subtitle li, h2 {
@@ -166,13 +166,13 @@ section, header, footer {
 }
 
 #logo-container #rbc-logo {
-  height: 15%;
-  width: 15%;
+  height: 4em;
+  width: 3em;
 }
 
 #logo-container figure img {
-  height: 25%;
-  width: 25%;
+  height: 4em;
+  width: 5em;
   display: block;
   padding: 1.222em 0;
   padding-right: 0.916em;
@@ -199,13 +199,13 @@ footer figure {
 }
 
 footer figure img {
-  height: 5%;
-  width: 5%;
+  height: 1.5em;
+  width: 1.5em;
   padding-right: 2em;
 }
 
 footer figure:last-child img {
-  height: 12%;
-  width: 12%;
+  height: 2em;
+  width: 3em;
 }
 /* ===== MEDIA QUERIES ===== */
