@@ -129,7 +129,7 @@ section, header, footer {
 
 #logo-main img {
   height: 4em;
-  width: 6em;
+  width: 6.5em;
 }
 
 #subtitle li, h2 {
@@ -208,4 +208,44 @@ footer figure:last-child img {
   height: 2em;
   width: 3em;
 }
+
 /* ===== MEDIA QUERIES ===== */
+@media screen and (min-width: 480px) {
+
+  section, header, footer {
+    padding: 2.44em 2.748em;
+  }
+
+  #subtitle li:first-child {
+    font-size: 2.109375em;
+  }
+
+  #subtitle li:nth-child(2) {
+    font-size: 2.531em;
+  }
+
+  #subtitle li:last-child {
+    font-size: 3.374875em;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  #subtitle {
+    padding-top: 24rem;
+  }
+
+  #subtitle li:first-child {
+    font-size: 2.531em;
+  }
+
+  #subtitle li:nth-child(2) {
+    font-size: 3.374875em;
+  }
+
+  #subtitle li:last-child {
+    font-size: 4.640375em;
+  }
+
+}
