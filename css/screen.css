@@ -308,4 +308,13 @@ footer figure:last-child img {
     margin-right: 2.748em;
   }
 
+  @media screen and (min-width: 1200px) {
+    footer p {
+      padding-right: 1.6em;
+    }
+
+    footer figure img {
+      padding-right: 4em;
+    }
+  }
 }
