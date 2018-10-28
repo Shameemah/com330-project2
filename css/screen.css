@@ -212,7 +212,7 @@ footer figure:last-child img {
 }
 
 /* ===== MEDIA QUERIES ===== */
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 31.250em) {
 
   #expertise, #biography, #contact, header, footer {
     padding: 2.44em 2.748em;
@@ -232,7 +232,7 @@ footer figure:last-child img {
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 48em) {
 
   #subtitle {
     padding-top: 24rem;
@@ -308,7 +308,7 @@ footer figure:last-child img {
     margin-right: 2.748em;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: 75em) {
     footer p {
       padding-right: 1.6em;
     }
