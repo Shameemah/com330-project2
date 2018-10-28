@@ -48,7 +48,7 @@ main, footer {
 }
 
 a {
-  color: #FFFF;
+  color: #FFF;
 }
 
 footer {
@@ -76,7 +76,6 @@ footer {
 
 #social {
   background: no-repeat url(../images/long-divider-white.png);
-  background-position: fixed;
   background-size: 100vw;
 }
 
@@ -110,7 +109,7 @@ footer {
 }
 
 #resume {
-  border:1px solid #FFFF;
+  border:1px solid #FFF;
   margin-bottom: 4.28em;
   width: 40vw;
   text-align: center;
